@@ -3,10 +3,11 @@
 
 class Matrix {
 private:
-    float** asArray;
-    int rows, cols;
+    float** asArray; 
 
 public:
+    int rows, cols;
+
     void init(int row, int col);
 
     float& operator()(int i, int j);
